@@ -1,5 +1,7 @@
-; This script is a cleaned up and enhanced version of the one found here:
+; This script can be found here:
 ; https://www.pathofexile.com/forum/view-thread/594346
+; If you have any questions or comments please post them there as well. If you think you can help
+; improve this project. I am looking for contributors. So Pm me if you think you can help.
  
 #NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Persistent ; Stay open in background
