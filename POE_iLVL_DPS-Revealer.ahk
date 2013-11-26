@@ -6,7 +6,7 @@
 ;
 ; If you have a issue please post what version you are using.
 ; Reason being is that something that might be a issue might already be fixed.
-; Version: 1.2c
+; Version: 1.2d
 ;
 ; 
 ;
@@ -29,7 +29,8 @@ ToolTipTimeoutTicks := 50
 
 ; Font size for the tooltip, leave empty for default
 FontSize := 12
- 
+
+
 ; Menu tooltip
 Menu, tray, Tip, Path of Exile Itemlevel and DPS Display
  
@@ -78,7 +79,7 @@ ParseDamage(String, DmgType, ByRef DmgLo, ByRef DmgHi)
 ; Added fuction for reading itemlist.txt added fuction by kongyuyu
 if DisplayBaseLevel = 1
 {
-    global ItemListArray
+ItemListArray = 0
     Loop, Read, %A_WorkingDir%\ItemList.txt   ; This loop retrieves each line from the file, one at a time.
     {
       ItemListArray += 1  ; Keep track of how many items are in the array.
@@ -91,6 +92,7 @@ if DisplayBaseLevel = 1
 ;;;Then add base lvl to the ItemName
 CheckBaseLevel(ByRef ItemName)
 {
+Global
 	Loop %ItemListArray%
 	{
 		element := Array%A_Index%1
