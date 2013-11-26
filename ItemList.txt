@@ -581,3 +581,6 @@ Alder Spike Shield|58
 Ezomyte Spiked Shield|62
 Mirrored Spiked Shield|66
 Supreme Spiked Shield|70
+Abyssal Sceptre|53
+Dread Maul|54
+Royal Sceptre|50

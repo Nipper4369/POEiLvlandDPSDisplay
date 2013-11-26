@@ -6,7 +6,7 @@
 ;
 ; If you have a issue please post what version you are using.
 ; Reason being is that something that might be a issue might already be fixed.
-; Version: 1.2a
+; Version: 1.2b
 ;
 ; 
 ;
@@ -78,20 +78,20 @@ ParseDamage(String, DmgType, ByRef DmgLo, ByRef DmgHi)
 ; Added fuction for reading itemlist.txt added fuction by kongyuyu
 if DisplayBaseLevel = 1
 {
-    global ArrayCount = 0
+    global ItemListArray
     Loop, Read, %A_WorkingDir%\ItemList.txt   ; This loop retrieves each line from the file, one at a time.
     {
-      ArrayCount += 1  ; Keep track of how many items are in the array.
+      ItemListArray += 1  ; Keep track of how many items are in the array.
       StringSplit, NameLevel, A_LoopReadLine, |,
-      Array%ArrayCount%1 := NameLevel1  ; Store this line in the next array element.
-      Array%ArrayCount%2 := NameLevel2
+      Array%ItemListArray%1 := NameLevel1  ; Store this line in the next array element.
+      Array%ItemListArray%2 := NameLevel2
     }
 }
 ;;;Function that check item name against the array
 ;;;Then add base lvl to the ItemName
 CheckBaseLevel(ByRef ItemName)
 {
-	Loop %ArrayCount%
+	Loop %ItemListArray%
 	{
 		element := Array%A_Index%1
 		IfInString, ItemName, %element%
