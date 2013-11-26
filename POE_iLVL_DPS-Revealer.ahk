@@ -6,9 +6,9 @@
 ;
 ; If you have a issue please post what version you are using.
 ; Reason being is that something that might be a issue might already be fixed.
-; Version: 1.01a
+; Version: 1.2a
 ;
-;
+; 
 ;
 
  
@@ -18,6 +18,9 @@ SendMode Input ; Recommended for new scripts due to its superior speed and relia
 StringCaseSense, On ; Match strings with case.
  
 ; Options
+; Base item level display.
+DisplayBaseLevel = 1 ; Enabled by default change to 0 to disable
+
 ; Pixels mouse must move to auto-dismiss tooltip
 MouseMoveThreshold := 40
 
@@ -28,7 +31,7 @@ ToolTipTimeoutTicks := 50
 FontSize := 12
  
 ; Menu tooltip
-Menu, tray, Tip, Path of Exile Itemlevel and DPS Display (fork by Aeons)
+Menu, tray, Tip, Path of Exile Itemlevel and DPS Display
  
 ; Create font for later use
 FixedFont := CreateFont()
@@ -71,6 +74,35 @@ ParseDamage(String, DmgType, ByRef DmgLo, ByRef DmgHi)
 		}
 	}
 }
+
+; Added fuction for reading itemlist.txt added fuction by kongyuyu
+if DisplayBaseLevel = 1
+{
+    global ArrayCount = 0
+    Loop, Read, %A_WorkingDir%\ItemList.txt   ; This loop retrieves each line from the file, one at a time.
+    {
+      ArrayCount += 1  ; Keep track of how many items are in the array.
+      StringSplit, NameLevel, A_LoopReadLine, |,
+      Array%ArrayCount%1 := NameLevel1  ; Store this line in the next array element.
+      Array%ArrayCount%2 := NameLevel2
+    }
+}
+;;;Function that check item name against the array
+;;;Then add base lvl to the ItemName
+CheckBaseLevel(ByRef ItemName)
+{
+	Loop %ArrayCount%
+	{
+		element := Array%A_Index%1
+		IfInString, ItemName, %element%
+		{
+			BaseLevel := "   " + Array%A_Index%2
+			StringRight, BaseLevel, BaseLevel, 3
+			ItemName := ItemName . "Base lvl:  " . BaseLevel . "`n"
+		}		
+	}
+}
+
  
 ; Parse clipboard content for item level and dps
 ParseClipBoardChanges()
@@ -118,6 +150,7 @@ ParseClipBoardChanges()
 			Else
 			{
 				ItemName := ItemName . A_LoopField . "`n" ; Add a line of name
+				CheckBaseLevel(ItemName) ; Checking for base item level.
 			}
 			Continue
 		}
