@@ -6,7 +6,7 @@
 ;
 ; If you have a issue please post what version you are using.
 ; Reason being is that something that might be a issue might already be fixed.
-; Version: 1.2b
+; Version: 1.2c
 ;
 ; 
 ;
@@ -230,9 +230,6 @@ ParseClipBoardChanges()
 		PhysDps := ((PhysLo + PhysHi) / 2) * AttackSpeed
 		EleDps := ((ChaoLo + ChaoHi + ColdLo + ColdHi + FireLo + FireHi + LighLo + LighHi) / 2) * AttackSpeed
 		TotalDps := PhysDps + EleDps
- 
-		ItemLevel := "   " + ItemLevel
-		StringRight, ItemLevel, ItemLevel, 3
  
 		TT = %TT%`nPhys DPS:  %PhysDps%`nElem DPS:  %EleDps%`nTotal DPS: %TotalDps%
  
