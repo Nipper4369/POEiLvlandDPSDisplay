@@ -127,6 +127,47 @@ Legion Hammer|62
 Pernarch|64
 Auric Mace|66
 Nightmare Mace|68
+Driftwood Sceptre|0
+Darkwood Sceptre|5
+Bronze Sceptre|10
+Quartz Sceptre|15
+Iron Sceptre|20
+Ochre Sceptre|24
+Ritual Sceptre|28
+Shadow Sceptre|32
+Grinning Fetish|35
+Sekhem|38
+Crystal Sceptre|41
+Lead Sceptre|44
+Blood Sceptre|47
+Royal Sceptre|50
+Abyssal Sceptre|53
+Karui Sceptre|56
+Tyrant's Sekhem|58
+Opal Sceptre|60
+Platinum Sceptre|62
+Carnal Sceptre|64
+Vaal Sceptre|66
+Void Sceptre|68
+Driftwood Maul|0
+Tribal Maul|8
+Mallet|12
+Sledgehammer|17
+Spiked Maul|22
+Brass Maul|27
+Fright Maul|32
+Totemic Maul|36
+Great Mallet|40
+Steelhead|44
+Spiny Maul|48
+Plated Maul|51
+Dread Maul|54
+Karui Maul|57
+Colossus Mallet|59
+Piledriver|61
+Meatgrinder|63
+Imperial Maul|65
+Terror Maul|67
 Gnarled Branch|0
 Primitive Staff|9
 Long Staff|13
@@ -581,6 +622,3 @@ Alder Spike Shield|58
 Ezomyte Spiked Shield|62
 Mirrored Spiked Shield|66
 Supreme Spiked Shield|70
-Abyssal Sceptre|53
-Dread Maul|54
-Royal Sceptre|50
