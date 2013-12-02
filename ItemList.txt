@@ -478,7 +478,7 @@ Close Helmet|26
 Gladiator Helmet|35
 Reaver Helmet|40
 Siege Helmet|48
-Samnite Helmet|55
+Samite Helmet|55
 Ezomyte Burgonet|60
 Royal Burgonet|65
 Eternal Burgonet|69
