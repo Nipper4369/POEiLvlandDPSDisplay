@@ -183,6 +183,12 @@ ParseClipBoardChanges()
 			PhysHi := Arr2
 			Continue
 		}
+		;Fix for Elemental damage only weapons. Like the Oro's Sacrifice
+		IfInString, A_LoopField, Elemental Damage:
+		{
+			IsWeapon = True
+			Continue
+		}
  
 		; These only make sense for weapons
 		If IsWeapon 
@@ -202,12 +208,20 @@ ParseClipBoardChanges()
 				PhysMult := Arr1
 				Continue
 			}
- 
+      
+      ;Lines to skip fix for converted type damage. Like the Voltaxic Rift
+      IfInString, A_LoopField, Converted to
+       Goto, SkipDamageParse
+      IfInString, A_LoopField, can Shock
+       Goto, SkipDamageParse
+      
 			; Parse elemental damage
 			ParseDamage(A_LoopField, "Chaos", ChaoLo, ChaoHi)
 			ParseDamage(A_LoopField, "Cold", ColdLo, ColdHi)
 			ParseDamage(A_LoopField, "Fire", FireLo, FireHi)
 			ParseDamage(A_LoopField, "Lightning", LighLo, LighHi)
+			
+		  SkipDamageParse:
 		}
 	}
 	If ItemLevel = -1 ; Something without an itemlevel
