@@ -6,7 +6,7 @@
 ;
 ; If you have a issue please post what version you are using.
 ; Reason being is that something that might be a issue might already be fixed.
-; Version: 1.2d
+; Version: 1.4
 ;
 ; 
 ;
@@ -25,7 +25,8 @@ DisplayBaseLevel = 1 ; Enabled by default change to 0 to disable
 MouseMoveThreshold := 40
 
 ;How many ticks to wait before removing tooltip. 1 tick = 100ms. Example, 50 ticks = 5secends, 75 Ticks = 7.5Secends
-ToolTipTimeoutTicks := 50 
+ToolTipTimeoutTicks := 300
+
 
 ; Font size for the tooltip, leave empty for default
 FontSize := 12
@@ -33,6 +34,9 @@ FontSize := 12
 
 ; Menu tooltip
 Menu, tray, Tip, Path of Exile Itemlevel and DPS Display
+
+; Include the file with maps info
+#Include mapList.txt
  
 ; Create font for later use
 FixedFont := CreateFont()
@@ -109,6 +113,9 @@ Global
 ; Parse clipboard content for item level and dps
 ParseClipBoardChanges()
 {
+	Rarity := 
+  MapName := 
+  IsMap := False
 	NameIsDone := False
 	ItemName := 
 	ItemLevel := -1
@@ -138,6 +145,9 @@ ParseClipBoardChanges()
 			}
 			Else
 			{
+				; Get rarity Added for maps
+			  StringSplit, Arr, A_LoopField, %A_Space%
+			  Rarity := Arr2
 				Continue
 			}
 		}
@@ -153,6 +163,33 @@ ParseClipBoardChanges()
 			{
 				ItemName := ItemName . A_LoopField . "`n" ; Add a line of name
 				CheckBaseLevel(ItemName) ; Checking for base item level.
+				;-----------Added for maps Start------------
+				; Get map name
+        IfInString, A_LoopField, %A_Space%Map
+        {
+          IsMap := True
+        }
+        ; Dry Peninsula fix
+        IfInString, A_LoopField, Dry%A_Space%Peninsula
+        {
+          IsMap := True
+        }
+        If IsMap
+        {
+          MapName := A_LoopField
+          ; Next stripping Affixes and "Superior" from map name
+          global matchList
+          Loop % matchList.MaxIndex()
+          {
+            Match := matchList[A_Index]
+            IfInString, MapName, %Match%
+            {
+              MapName := matchList[A_Index]
+              Break
+            }
+          }
+        }
+        ;-----------Added for maps End------------
 			}
 			Continue
 		}
@@ -238,6 +275,23 @@ ParseClipBoardChanges()
 	ItemLevel := "   " + ItemLevel
 	StringRight, ItemLevel, ItemLevel, 3
 	TT = %ItemName%Item lvl:  %ItemLevel%
+ ;-----------Added for maps Start------------
+   ; Adding map info to the tooltip, if item is a map
+  If IsMap
+  {
+    global mapList
+    global uniqueMapList
+    if Rarity = Unique
+    {
+      MapDescription := uniqueMapList[MapName]
+    }
+    else
+    {
+      MapDescription := mapList[MapName]
+    }
+    TT = %TT%`n%MapDescription%
+  }
+ ;-----------Added for maps End------------
  
 	; DPS calculations
 	If IsWeapon {
