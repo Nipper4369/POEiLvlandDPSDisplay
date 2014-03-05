@@ -6,7 +6,7 @@
 ;
 ; If you have a issue please post what version you are using.
 ; Reason being is that something that might be a issue might already be fixed.
-; Version: 1.4
+; Version: 1.4.1
 ;
 ; 
 ;
