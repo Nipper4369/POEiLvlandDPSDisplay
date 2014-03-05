@@ -36,7 +36,7 @@ FontSize := 12
 Menu, tray, Tip, Path of Exile Itemlevel and DPS Display
 
 ; Include the file with maps info
-#Include mapList.txt
+#Include %A_ScriptDir%\data\mapList.txt
  
 ; Create font for later use
 FixedFont := CreateFont()
@@ -84,7 +84,7 @@ ParseDamage(String, DmgType, ByRef DmgLo, ByRef DmgHi)
 if DisplayBaseLevel = 1
 {
 ItemListArray = 0
-    Loop, Read, %A_WorkingDir%\ItemList.txt   ; This loop retrieves each line from the file, one at a time.
+    Loop, Read, %A_ScriptDir%\data\ItemList.txt   ; This loop retrieves each line from the file, one at a time.
     {
       ItemListArray += 1  ; Keep track of how many items are in the array.
       StringSplit, NameLevel, A_LoopReadLine, |,
