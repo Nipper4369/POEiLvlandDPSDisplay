@@ -5,6 +5,8 @@ matchList := ["Crypt Map","Dried Lake Map","Dunes Map","Dungeon Map","Grotto Map
 
 ;----------------------Normal Map List--------------------
 
+mapList["Unknown Map"] := "`nYou've found a new map type, please report it!"
+
 mapList["Crypt Map"] := "`nThis map is based on The Crypt zones in Act 2.`n`nMap type: Indoors`n`nBoss: Pagan Bishop of Agony (based on Archbishop Geofri the Abashed,`nthe Boss from The Crypt dungeon)`n- Resists Lightning`n- Immune To Curses`n- Casts Vulnerability`n- Casts Temporal Chains`n`nVendor: 3 Crypt maps yields 1 Cemetery map"
 
 mapList["Dried Lake Map"] := "`nThis map is based on the Fetid Pool zone in Act 1.`nIt does not have the same environmental effects as that zone.`nIt is a large, open area with one large pool of water around the center.`n`nMap type: Outdoors`n`nBoss: Drought Maddened Rhoa (based on Oozeback Bloom)`nIt charges at enemies, stunning them if hit.`nHe also has a debuff that deals chaos damage to enemies over time.`n`nVendor: 3 Dried Lake maps yields 1 Thicket map"
@@ -130,6 +132,8 @@ mapList["Courtyard Map"] := "`nThis map is based on The Imperial Gardens in Act 
 mapList["Palace Map"] := "`nThis map is based on The Upper Sceptre of God in Act 3.`n`nMap Type: Indoors`n`nBoss: God's Chosen (or The Hallowed Husk in his`nAscendant form). He is based on Dominus.`n`nVendor:`n- Produced by 3 Shipyard Maps"
 
 ;----------------------Unique Map List--------------------
+
+uniqueMapList["Unknown Map"] := "`nYou've found a new unique map, please report it!"
 
 uniqueMapList["Crypt Map"] := "`nThis map contains several floors with multiple waves`nof monster spawning per floor. The map is guaranteed`nto drop at least one unique item, regardless of item level.`nWhile the monster level stays the same, magic and rare`nmonsters increase with every wave. Additionally, at the`nend of every wave appears a rare Necromancer.`n`nMap type: Indoors`n`nBoss: Infector of Dreams (unique Necromancer)`n- Resists Lightning`n- Additional Life`n- Casts Elemental Weakness Curse`n- Raises Undead`n- Allies deal increased Elemental Damage"
 

@@ -1,0 +1,686 @@
+#################### 1
+Rarity: Rare
+Death Batter
+Karui Maul
+--------
+Two Handed Mace
+Quality: +20% (augmented)
+Physical Damage: 299-453 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.19 (augmented)
+--------
+Requirements:
+Level: 57
+Str: 182 (unmet)
+--------
+Sockets: R R-R R 
+--------
+Itemlevel: 68
+--------
+20% increased Stun Duration on enemies
+--------
+145% increased Physical Damage
+Adds 18-29 Physical Damage
+25% increased Attack Speed
+25% increased Global Critical Strike Multiplier
++8 Life gained on Kill
++5 to Accuracy Rating
+#################### 2
+Rarity: Rare
+Pandemonium Needle
+Fiend Dagger
+--------
+Dagger
+Physical Damage: 38-150 (augmented)
+Elemental Damage: 1-25 (augmented)
+Critical Strike Chance: 9.15% (augmented)
+Attacks per Second: 1.20
+--------
+Requirements:
+Level: 53
+Dex: 58
+Int: 123
+--------
+Sockets: G-G 
+--------
+Itemlevel: 68
+--------
+60% increased Global Critical Strike Chance
+--------
+25% increased Spell Damage
+100% increased Physical Damage
+Adds 1-25 Lightning Damage
+74% increased Critical Strike Chance for Spells
+29% increased Critical Strike Chance
+16% increased Global Critical Strike Multiplier
++21 to maximum Mana
+#################### 3
+Rarity: Rare
+Dread Coil
+Amethyst Ring
+--------
+Requirements:
+Level: 48
+--------
+Itemlevel: 70
+--------
++13% to Chaos Resistance
+--------
++37 to Dexterity
++9 to Intelligence
+Adds 10-16 Fire Damage
++58 to maximum Mana
+9% increased Rarity of Items found
++31% to Fire Resistance
+#################### 4
+Rarity: Rare
+Armageddon Crack
+Colossus Mallet
+--------
+Two Handed Mace
+Quality: +15% (augmented)
+Physical Damage: 121-246 (augmented)
+Elemental Damage: 13-29 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.20
+--------
+Requirements:
+Level: 59
+Str: 188 (unmet)
+--------
+Sockets: R-R-R R R-R 
+--------
+Itemlevel: 61
+--------
+20% increased Stun Duration on enemies
+--------
+42% increased Physical Damage
+Adds 17-33 Physical Damage
+Adds 13-29 Fire Damage
++10% to Cold Resistance
++182 to Accuracy Rating
+#################### 5
+Rarity: Rare
+Agony Salvation
+Commander's Brigandine
+--------
+Armour: 367 (augmented)
+Evasion Rating: 406 (augmented)
+--------
+Requirements:
+Level: 50
+Str: 73
+Dex: 73
+--------
+Sockets: R-R-G 
+--------
+Itemlevel: 58
+--------
++22 to Strength
++21 to Evasion Rating
+50% increased Armour and Evasion
++19% to Cold Resistance
+14% increased Block and Stun Recovery
+#################### 6
+Rarity: Rare
+Sol Wreck
+Colossus Mallet
+--------
+Two Handed Mace
+Physical Damage: 185-381 (augmented)
+Critical Strike Chance: 6.2% (augmented)
+Attacks per Second: 1.20
+--------
+Requirements:
+Level: 59
+Str: 188 (unmet)
+--------
+Sockets: R R 
+--------
+Itemlevel: 73
+--------
+20% increased Stun Duration on enemies
+--------
+198% increased Physical Damage
+Adds 2-4 Physical Damage
+24% increased Critical Strike Chance
++48 to Accuracy Rating
+#################### 7
+Rarity: Rare
+Corruption Visor
+Noble Tricorne
+--------
+Evasion Rating: 400 (augmented)
+--------
+Requirements:
+Level: 48
+Dex: 99
+--------
+Sockets: G 
+--------
+Itemlevel: 66
+--------
++19 to Accuracy Rating
+99% increased Evasion Rating
++57 to maximum Life
+18% increased Rarity of Items found
+6% increased Block and Stun Recovery
+5% increased Light Radius
+#################### 8
+Rarity: Rare
+Chimeric Knell
+Tyrant's Sekhem
+--------
+One Handed Mace
+Physical Damage: 37-69
+Critical Strike Chance: 6.5%
+Attacks per Second: 1.20
+--------
+Requirements:
+Level: 58
+Str: 99
+Int: 99
+--------
+Sockets: R-B 
+--------
+Itemlevel: 58
+--------
+10% increased Elemental Damage
+--------
+22% increased Spell Damage
+14% reduced Enemy Stun Threshold
++30 to maximum Mana
+11% increased Stun Duration on enemies
+#################### 9
+Rarity: Rare
+Bramble Smasher
+Tenderizer
+--------
+One Handed Mace
+Physical Damage: 70-90 (augmented)
+Elemental Damage: 12-25 (augmented)
+Critical Strike Chance: 5.9% (augmented)
+Attacks per Second: 1.30
+--------
+Requirements:
+Level: 58
+Str: 185 (unmet)
+--------
+Sockets: R R-R 
+--------
+Itemlevel: 58
+--------
+20% increased Stun Duration on enemies
+--------
+67% increased Physical Damage
+Adds 12-25 Fire Damage
+18% increased Critical Strike Chance
++2 Life gained for each enemy hit by your Attacks
++223 to Accuracy Rating
+#################### 10
+Rarity: Rare
+Onslaught Saw
+Headman's Sword
+--------
+Two Handed Sword
+Physical Damage: 95-219 (augmented)
+Critical Strike Chance: 5.75% (augmented)
+Attacks per Second: 1.10
+--------
+Requirements:
+Level: 57
+Str: 106
+Dex: 89
+--------
+Sockets: R 
+--------
+Itemlevel: 57
+--------
+18% increased Accuracy Rating
+--------
+44% increased Physical Damage
+Adds 7-13 Physical Damage
+15% increased Critical Strike Chance
+11% increased Global Critical Strike Multiplier
+1% of Physical Attack Damage Leeched as Life
++11 to Accuracy Rating
+#################### 11
+Rarity: Rare
+Mind Skewer
+Nailed Fist
+--------
+Claw
+Physical Damage: 6-15 (augmented)
+Critical Strike Chance: 7.41% (augmented)
+Attacks per Second: 1.35
+--------
+Requirements:
+Level: 6
+--------
+Sockets: R B 
+--------
+Itemlevel: 8
+--------
++3 Life gained for each enemy hit by your Attacks
+--------
++1 to Level of Melee Gems in this item
+47% increased Physical Damage
++12 to Dexterity
+14% increased Critical Strike Chance
+12% increased Mana Regeneration Rate
++4 to Accuracy Rating
+#################### 12
+Rarity: Rare
+Rift Shatter
+Ancestral Club
+--------
+One Handed Mace
+Physical Damage: 61-101 (augmented)
+Elemental Damage: 13-30 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.15
+--------
+Requirements:
+Level: 56
+Str: 179 (unmet)
+--------
+Sockets: R-R G 
+--------
+Itemlevel: 62
+--------
+20% increased Stun Duration on enemies
+--------
+49% increased Physical Damage
++10 to Strength
+Adds 13-30 Cold Damage
++171 to Accuracy Rating
+#################### 13
+Rarity: Rare
+Ghoul Shell
+Crusader Plate
+--------
+Armour: 685 (augmented)
+--------
+Requirements:
+Level: 59
+Str: 160 (unmet)
+--------
+Sockets: B 
+--------
+Itemlevel: 62
+--------
++17 to Strength
+60% increased Armour
++38% to Fire Resistance
+11% increased Block and Stun Recovery
+#################### 14
+Rarity: Rare
+Eagle Glance
+Harlequin Mask
+--------
+Evasion Rating: 160 (augmented)
+Energy Shield: 47 (augmented)
+--------
+Requirements:
+Level: 57
+Dex: 64
+Int: 64
+--------
+Sockets: B-B 
+--------
+Itemlevel: 62
+--------
++130 to Accuracy Rating
+17% increased Evasion and Energy Shield
+2.2 Life Regenerated per second
+30% increased Block and Stun Recovery
+#################### 15
+Rarity: Rare
+Corruption Coat
+Devout Chainmail
+--------
+Armour: 280 (augmented)
+Energy Shield: 82 (augmented)
+--------
+Requirements:
+Level: 55
+Str: 80
+Int: 80
+--------
+Sockets: B-G 
+--------
+Itemlevel: 62
+--------
++18 to Intelligence
+30% increased Armour and Energy Shield
++47 to maximum Life
+1.9 Life Regenerated per second
++41 to maximum Mana
+#################### 16
+Rarity: Rare
+Fate Roar
+Dread Maul
+--------
+Two Handed Mace
+Physical Damage: 83-120 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.45 (augmented)
+--------
+Requirements:
+Level: 54
+Str: 173 (unmet)
+--------
+Sockets: R 
+--------
+Itemlevel: 62
+--------
+20% increased Stun Duration on enemies
+--------
+Adds 11-23 Physical Damage
+21% increased Attack Speed
+27% increased Global Critical Strike Multiplier
+9% reduced Enemy Stun Threshold
+#################### 17
+Rarity: Rare
+Hypnotic Roar
+Abyssal Axe
+--------
+Two Handed Axe
+Physical Damage: 107-161 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.50 (augmented)
+--------
+Requirements:
+Level: 55
+Str: 128
+Dex: 60
+--------
+Sockets: R-R-G-G 
+--------
+Itemlevel: 62
+--------
+41% increased Physical Damage
++25 to Dexterity
+25% increased Attack Speed
+32% increased Stun Duration on enemies
++44 to Accuracy Rating
+#################### 18
+Rarity: Rare
+Corruption Thirst
+Ambusher
+--------
+Dagger
+Physical Damage: 16-63
+Elemental Damage: 5-10 (augmented), 5-56 (augmented)
+Critical Strike Chance: 6.68%
+Attacks per Second: 1.60
+--------
+Requirements:
+Level: 60
+Dex: 113
+Int: 113
+--------
+Sockets: G 
+--------
+Itemlevel: 62
+--------
+40% increased Global Critical Strike Chance
+--------
+Adds 5-10 Cold Damage
+Adds 5-56 Lightning Damage
++45 to maximum Mana
++32% to Cold Resistance
+#################### 19
+Rarity: Rare
+Golem Horn
+Lacquered Helmet
+--------
+Armour: 132 (augmented)
+Evasion Rating: 120
+--------
+Requirements:
+Level: 51
+Str: 57
+Dex: 57
+--------
+Sockets: G R 
+--------
+Itemlevel: 67
+--------
++34 to Intelligence
++12 to Armour
+28% increased Rarity of Items found
++13% to Fire Resistance
+#################### 20
+Rarity: Rare
+Phoenix Palm
+Serpentscale Gauntlets
+--------
+Quality: +13% (augmented)
+Armour: 77 (augmented)
+Evasion Rating: 77 (augmented)
+--------
+Requirements:
+Level: 48
+Str: 23 (augmented)
+Dex: 23 (augmented)
+--------
+Sockets: R-B G 
+--------
+Itemlevel: 67
+--------
+Adds 3-6 Physical Damage
++19 to Strength
+13% increased Rarity of Items found
+32% reduced Attribute Requirements
+#################### 21
+Rarity: Rare
+Horror Skewer
+Tiger Sword
+--------
+Two Handed Sword
+Physical Damage: 70-118 (augmented)
+Critical Strike Chance: 6.6% (augmented)
+Attacks per Second: 1.30
+--------
+Requirements:
+Level: 51
+Str: 80
+Dex: 96
+--------
+Sockets: G 
+--------
+Itemlevel: 67
+--------
+18% increased Accuracy Rating
+--------
++2 to Level of Melee Gems in this item
+Adds 15-27 Physical Damage
+32% increased Critical Strike Chance
++10% to Fire Resistance
+11% increased Stun Duration on enemies
+#################### 22
+Rarity: Rare
+Skull Gutter
+Reaver Sword
+--------
+Two Handed Sword
+Physical Damage: 59-99
+Elemental Damage: 17-37 (augmented), 5-83 (augmented)
+Critical Strike Chance: 5.6% (augmented)
+Attacks per Second: 1.35
+--------
+Requirements:
+Level: 59
+Str: 82
+Dex: 119
+--------
+Sockets: R-R 
+--------
+Itemlevel: 65
+--------
+18% increased Accuracy Rating
+--------
+Adds 17-37 Fire Damage
+Adds 5-83 Lightning Damage
+12% increased Critical Strike Chance
+29% increased Stun Duration on enemies
++171 to Accuracy Rating
+#################### 23
+Rarity: Rare
+Dire Veil
+Ornate Ringmail
+--------
+Armour: 226 (augmented)
+Energy Shield: 66 (augmented)
+--------
+Requirements:
+Level: 47
+Str: 69
+Int: 69
+--------
+Sockets: B 
+--------
+Itemlevel: 68
+--------
+22% increased Armour and Energy Shield
+28% increased Block and Stun Recovery
+Reflects 1 Physical Damage to Melee Attackers
+#################### 24
+Rarity: Rare
+Sol Keep
+Gladiator Plate
+--------
+Armour: 594 (augmented)
+--------
+Requirements:
+Level: 65
+Str: 177 (unmet)
+--------
+Sockets: R-R-R 
+--------
+Itemlevel: 68
+--------
++33 to Strength
++68 to Armour
++23% to Fire Resistance
+16% increased Block and Stun Recovery
+Reflects 15 Physical Damage to Melee Attackers
+#################### 25
+Rarity: Rare
+Gloom Wrap
+Sharkskin Tunic
+--------
+Quality: +12% (augmented)
+Evasion Rating: 527 (augmented)
+--------
+Requirements:
+Level: 56
+Dex: 152
+--------
+Sockets: G-G G 
+--------
+Itemlevel: 68
+--------
++30 to Dexterity
+18% increased Evasion Rating
++16 to maximum Life
+16% increased Block and Stun Recovery
+Reflects 30 Physical Damage to Melee Attackers
+#################### 26
+Rarity: Rare
+Spirit Trail
+Carnal Boots
+--------
+Evasion Rating: 281 (augmented)
+Energy Shield: 59 (augmented)
+--------
+Requirements:
+Level: 55
+Dex: 42 (augmented)
+Int: 42 (augmented)
+--------
+Sockets: G 
+--------
+Itemlevel: 68
+--------
++33 to Evasion Rating
+136% increased Evasion and Energy Shield
+4.6 Life Regenerated per second
+15% increased Block and Stun Recovery
+18% reduced Attribute Requirements
+#################### 27
+Rarity: Rare
+Honour Call
+Lacewood Spirit Shield
+--------
+Chance to Block: 28%
+Energy Shield: 58
+--------
+Requirements:
+Level: 56
+Int: 134
+--------
+Sockets: B-B B 
+--------
+Itemlevel: 68
+--------
+5% increased Spell Damage
+--------
+41% increased Spell Damage
+58% increased Critical Strike Chance for Spells
++35 to maximum Mana
+Reflects 8 Physical Damage to Melee Attackers
+#################### 28
+Rarity: Rare
+Skull Scratch
+Tiger Sword
+--------
+Two Handed Sword
+Quality: +5% (augmented)
+Physical Damage: 67-110 (augmented)
+Elemental Damage: 20-39 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.30
+--------
+Requirements:
+Level: 51
+Str: 80
+Dex: 96
+--------
+Sockets: R-R 
+--------
+Itemlevel: 68
+--------
+18% increased Accuracy Rating
+--------
+16% increased Physical Damage
++37 to Dexterity
+Adds 20-39 Fire Damage
+21% increased Global Critical Strike Multiplier
++29% to Lightning Resistance
+2% of Physical Attack Damage Leeched as Life
++7 to Accuracy Rating
+#################### 29
+Rarity: Rare
+Miracle Stride
+Carnal Boots
+--------
+Evasion Rating: 128 (augmented)
+Energy Shield: 64 (augmented)
+--------
+Requirements:
+Level: 55
+Dex: 52
+Int: 52
+--------
+Sockets: B 
+--------
+Itemlevel: 68
+--------
++9 to Intelligence
+49% increased Evasion and Energy Shield
++50 to maximum Mana
++18 to maximum Energy Shield
++33% to Fire Resistance
+34% increased Block and Stun Recovery
