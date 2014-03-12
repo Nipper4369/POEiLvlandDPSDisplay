@@ -60,6 +60,7 @@ Voideye|@1 Socket|5:to Level of Gems in this item
 Blackgleam|@2-4:Adds Fire Damage|10:increased Attack Speed|20:to Evasion Rating|10-30:to maximum Mana|30-50:of Physical Damage Converted to Fire Damage
 Broadstroke|@1-4:Adds Physical Damage|30:increased Physical Damage|10-15:reduced Enemy Stun Threshold|20-30:increased Stun Duration on enemies
 Drillneck|@10:chance of Arrows Piercing|8-12:increased Attack Speed|350:to Evasion Rating|40-50:to maximum Life|10-19,14-24:Adds Physical Damage to attacks with Bows|Projectile Damage increased by Arrow Pierce Chance
+Rearguard|@6-12:Adds Physical Damage|400-450:to Armour|20-30:increased Projectile Speed|50:increased Block and Stun Recovery|15-20:increased Projectile Damage|20-24:Chance to Block|12-15:Chance to Block Spells
 
 ; -------- Body Armours ---------
 
@@ -116,6 +117,7 @@ Wondertrap|@19-25:Evasion Rating|5-10:to Strength|5-10:to Dexterity|5-10:to Inte
 ; -------- Gloves ---------
 
 Asenath's Gentle Touch|20-30:to Intelligence|20-30:to Maximum Life|20-30:to Maximum Mana|Curse Enemies with Temporal Chains on Hit
+Atziri's Acuity|@603-643:Armour|60-80:to Intelligence|60-75:to maximum Life|200-220:increased Armour|25-35:increased Global Critical Strike Chance|Leech applies instantly on Critical Strike
 Aurseize|80-91:Armour|@80-91:Evasion Rating|40-60:increased Armour and Evasion|40-50:increased Rarity of Items found|15:to all Elemental Resistances|5:reduced Movement Speed
 Demigod's Touch|20-30:to maximum Life|10-16:increased Attack Speed|6-10:increased Cast Speed
 Deshret's Vise|@141-162:Armour|10:increased Physical Damage|100:to Strength|5-15:reduced Attack Speed|40-60:increased Armour
@@ -159,6 +161,7 @@ Mindspiral|10-15:increased Cold Damage|10-15:increased Lightning Damage|100-150:
 The Peregrine|77-88:Armour|@77-88:Evasion Rating|100:to Accuracy Rating|1:of Physical Attack Damage Leeched back as Mana|40-60:increased Armour and Evasion|30:to Lightning Resistance|20-30:increased Rarity of Items found|10:increased Movement Speed
 Rat's Nest|15:increased Attack Speed|60-75:increased Global Critical Strike Chance|150:increased Evasion Rating|20-25:increased Rarity of Items found|10:increased Movement Speed|10:reduced Character Size
 Rime Gaze|@182-200:Energy Shield|Gems in this item are Supported by level 15 Concentrated Effect|10:increased Cold Damage|40-60:to maximum Mana|100-120:increased Energy Shield|50:reduced Energy Shield Cooldown Recovery
+The Vertex|621-684:Evasion Rating|@265-330:Energy Shield|30-40:to maximum Energy Shield|245-280:increased Evasion and Energy Shield|24-30:to Chaos Resistance|1:to Level of Gems in this item|Gems in this item have 50% reduced Mana Cost
 Skullhead|136-153:Armour|@136-153:Evasion Rating|60-80:increased Armour and Evasion|50-70:to maximum Life|50-70:to maximum Mana|10:Minions have Chance to Block|300-350:to Minion Armour|Minions Regenerate 2% Life per Second
 Starkonja's Head|50:reduced Damage when on Low Life|30-50:to Dexterity|10:increased Attack Speed|25:increased Global Critical Strike Chance|80-100:to maximum Life|50:increased Global Evasion Rating when on Low Life
 Veil of the Night|20-22:increased Block and Stun Recovery|40:reduced Light Radius|1-180,1-220:Reflected Lightning Damage to Attackers on Block|18-22:increased Global Defences|Elemental Resistances are Zero
@@ -189,6 +192,7 @@ Dyadus|45-75:Physical Damage|170-200,190-220:Fire Damage in Main Hand|170-200,19
 
 ; -------- 2H Axe ---------
 
+Atziri's Disfavour|305-411,320-431:Physical Damage|@1.28-1.33:Attacks per Second|220-270,235-290:Adds Physical Damage|12-16:increased Attack Speed|Causes Bleeding on Hit|2:to Weapon range|2:to Level of Support Gems in this item
 The Blood Reaper|@118-176,130-194:Physical Damage|100-120:increased Physical Damage|5:of Physical Damage Leeched back as Life|100:to maximum Life|10:Life Regenerated per second|50:increased Mana Cost of Skills|Causes Bleeding on Hit
 Kaom's Primacy|252-395,310-486:Physical Damage|@16-32,21-38:Elemental Damage|160-220:increased Physical Damage|16-32,21-38:Adds Fire Damage|150-250:to Accuracy Rating|20:Life gained when you Kill an enemy|Culling Strike
 Limbsplit|@43-90,48-100:Physical Damage|1:to Level of Strength Gems in this item|80-100:increased Physical Damage|5-10:Adds Physical Damage|15-30:to Strength|Culling Strike
@@ -278,7 +282,7 @@ Void Battery|28-52:Physical Damage|@16-20:increased Spell Damage|80:reduced Spel
 
 ; -------- Fishing Rods (yeah, I know... you happy, MonstaMunch??)  ---------
 
-Song of the Sirens|@8–14:Physical Damage|Siren Worm Bait|40-50:reduced Quantity of Fish found|50-60:increased Rarity of Fish Found|You can catch Exotic Fish
+Song of the Sirens|@8-14:Physical Damage|Siren Worm Bait|40-50:reduced Quantity of Fish found|50-60:increased Rarity of Fish Found|You can catch Exotic Fish
 
 ; -------- Flasks ---------
 
