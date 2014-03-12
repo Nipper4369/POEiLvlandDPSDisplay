@@ -538,3 +538,23 @@ Itemlevel: 72
 +28 to maximum Energy Shield
 +20% to Lightning Resistance
 20% increased Stun Duration on enemies
+#################### 24
+Rarity: Rare
+Dragon Peak
+Samite Helmet
+--------
+Armour: 312 (augmented)
+--------
+Requirements:
+Level: 55
+Str: 114
+--------
+Sockets: G 
+--------
+Itemlevel: 67
+--------
+30% increased Armour
++76 to maximum Life
++21% to Fire Resistance
++33% to Cold Resistance
+35% increased Block and Stun Recovery

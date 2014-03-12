@@ -56,7 +56,7 @@ See start of script for some more background info on these issues.
 Attribution
 -----------
 
-Created by Nipper4369 and original authors.
+Created by Nipper4369 and original authors.  
 Created by hazydoc / IGN: Sadou
 
 Supersedes the POE_iLVL_DPS-Revealer script.
