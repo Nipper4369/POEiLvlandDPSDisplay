@@ -558,3 +558,45 @@ Itemlevel: 67
 +21% to Fire Resistance
 +33% to Cold Resistance
 35% increased Block and Stun Recovery
+#################### 25
+Rarity: Rare
+Plague Song
+Jasper Chopper
+--------
+Two Handed Axe
+Physical Damage: 156-243 (augmented)
+Elemental Damage: 5-75 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.00
+--------
+Requirements:
+Level: 37
+Str: 100
+Dex: 29
+--------
+Sockets: R B-G-R 
+--------
+Itemlevel: 42
+--------
+136% increased Physical Damage
+Adds 5-75 Lightning Damage
++183 to Accuracy Rating
+#################### 26
+Rarity: Rare
+Skull Stinger
+Decurve Bow
+--------
+Bow Quality: +15% (augmented)
+Physical Damage: 38-150 (augmented)
+Elemental Damage: 16-28 (augmented)
+Critical Strike Chance: 5%
+Attacks per Second: 1.20
+--------
+Requirements: Level: 38
+Dex: 125
+Sockets: G-G
+Itemlevel: 50
+--------
+139% increased Physical Damage
+Adds 16-28 Cold Damage
++165 to Accuracy Rating

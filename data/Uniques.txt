@@ -53,7 +53,7 @@ Romira's Banquet|@20-30:increased Global Critical Strike Chance|333:to Accuracy 
 Shavronne's Revelation|@15-25:to maximum Energy Shield|60-75:to Intelligence|Right ring slot: You cannot Regenerate Mana|Right ring slot: 4.0% of Energy Shield Regenerated per second|Left ring slot: 100% increased Mana Regeneration Rate|Left ring slot: You cannot Recharge or Regenerate Energy Shield
 The Taming|@8-10:to all Elemental Resistances|15:increased Elemental Damage with Weapons|10-15:to all Elemental Resistances|15:increased Elemental Damage|5:chance to Freeze, Shock and Ignite|10:increased damage per Freeze, Shock and Ignite on enemy
 Thief's Torment|@8-10:to all Elemental Resistances|20-30:Life gained for each enemy hit by your Attacks|15:Mana gained for each enemy hit by your Attacks|8-12:to all Elemental Resistances|15-25:increased Quantity of Items found|50:Reduced Effect of Curses on You|Can't use other Rings
-Voideye|@1 Socket|5:to Level of Gems in this item
+Voideye|@:1 Socket|5:to Level of Gems in this item
 
 ; -------- Quivers ---------
 
