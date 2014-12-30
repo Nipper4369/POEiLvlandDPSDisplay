@@ -1,7 +1,7 @@
 ; Data from http://pathofexile.gamepedia.com/List_of_unique_items
 ; The "@" symbol marks a mod as implicit. This means a seperator line will be appended after this mod. If there are multiple implicit mods, mark the last one in line.
 ; Comments can be made with ";", blank lines will be ignored.
-; Note that this file needs the same encoding as the Item Info AHK script that. By default that currently is ANSI.
+; Note that this file may need the same text encoding as the Item Info AHK script that is being executed.
 
 ; -------- Amulets ---------
 
@@ -29,9 +29,10 @@ Headhunter|@25-40:to Maximum Life|40-55:to Strength|40-55:to Dexterity|50-60:to 
 Immortal Flesh|@25-40:to Maximum Life|75-100:to maximum Life|66-75:Life Regenerated per second|8-10:Mana Regenerated per second|-40:to all Elemental Resistances|-10:to all maximum Resistances|50-40:Physical Damage taken from Attacks|40:increased Armour while not Ignited, Frozen or Shocked
 The Magnate|@20-30:increased Stun Duration on enemies|25-40:increased Physical Damage|40-50:to Strength|50:increased Flask Charges gained
 Meginord's Girdle|@25-35:to Strength|10-20:Added Physical Damage|25:to Strength|10:increased maximum Life|10-20:to Cold Resistance|25:increased Flask Life recovery rate
-Perandus Blazon|@15-25:increased Block and Stun Recovery|20-30:to all Attributes|20:to Fire Resistance|8-12:increased Quantity of Items found|20:increased Flask effect duration|-2:Physical Damage taken from Attacks
+Perandus Blazon|@15-25:increased Block and Stun Recovery|20-30:to all Attributes|6-8:increased Quantity of Items found|20:to Fire Resistance|20:increased Flask effect duration|-2:Physical Damage taken from Attacks
 Sunblast|@15-25:increased Block and Stun Recovery|30-40:increased Trap Damage|20:increased Mana Regeneration Rate|20-30:increased Fire Resistance|80:reduced Trap Duration|25:increased Light Radius|Traps trigger at the end of their Duration
 Wurm's Molt|@25-40:to Maximum Life|20-30:to Strength|20-30:to Intelligence|10-20:to Cold Resistance|2:Physical Attack Damage Leeched back as Life|2:Physical Attack Damage Leeched back as Mana
+Demigod's Bounty|Golden Obi|20-30:increased Rarity of Items found|16-24:to all Elemental Resistances|10:increased Character Size
 
 ; -------- Rings ---------
 
@@ -52,7 +53,7 @@ Perandus Signet|@20-25:to maximum Mana|25-30:to maximum Mana|45-65:increased Man
 Romira's Banquet|@20-30:increased Global Critical Strike Chance|333:to Accuracy Rating|10-15:increased Global Critical Strike Multiplier|40-60:to maximum Mana|2:of Physical Attack Damage Leeched as Mana|Gain a Power Charge on non-Critical Strike|Lose all Power Charges on Critical Strike
 Shavronne's Revelation|@15-25:to maximum Energy Shield|60-75:to Intelligence|Right ring slot: You cannot Regenerate Mana|Right ring slot: 4.0% of Energy Shield Regenerated per second|Left ring slot: 100% increased Mana Regeneration Rate|Left ring slot: You cannot Recharge or Regenerate Energy Shield
 The Taming|@8-10:to all Elemental Resistances|15:increased Elemental Damage with Weapons|10-15:to all Elemental Resistances|15:increased Elemental Damage|5:chance to Freeze, Shock and Ignite|10:increased damage per Freeze, Shock and Ignite on enemy
-Thief's Torment|@8-10:to all Elemental Resistances|20-30:Life gained for each enemy hit by your Attacks|15:Mana gained for each enemy hit by your Attacks|8-12:to all Elemental Resistances|15-25:increased Quantity of Items found|50:Reduced Effect of Curses on You|Can't use other Rings
+Thief's Torment|@8-10:to all Elemental Resistances|20-30:Life gained for each enemy hit by your Attacks|15:Mana gained for each enemy hit by your Attacks|8-12:to all Elemental Resistances|10-16:increased Quantity of Items found|50:Reduced Effect of Curses on You|Can't use other Rings
 Voideye|@:1 Socket|5:to Level of Gems in this item
 
 ; -------- Quivers ---------
@@ -61,6 +62,9 @@ Blackgleam|@2-4:Adds Fire Damage|10:increased Attack Speed|20:to Evasion Rating|
 Broadstroke|@1-4:Adds Physical Damage|30:increased Physical Damage|10-15:reduced Enemy Stun Threshold|20-30:increased Stun Duration on enemies
 Drillneck|@10:chance of Arrows Piercing|8-12:increased Attack Speed|350:to Evasion Rating|40-50:to maximum Life|10-19,14-24:Adds Physical Damage to attacks with Bows|Projectile Damage increased by Arrow Pierce Chance
 Rearguard|@6-12:Adds Physical Damage|400-450:to Armour|20-30:increased Projectile Speed|50:increased Block and Stun Recovery|15-20:increased Projectile Damage|20-24:Chance to Block|12-15:Chance to Block Spells
+Hyrri's Bite|3-4:Life gained for each enemy hit by your Attacks|15-25:to Strength|35-45:to Dexterity|15-25:to Intelligence|7-10:increased Attack Speed|2-3:Life gained for each enemy hit by your Attacks|10:increased Radius of Area Skills
+Asphyxia's Wrath|20-30:increased Accuracy Rating|8-12:increased Attack Speed|30-40:to Cold Resistance|30-40:increased Chill Duration on enemies |20:of Physical Damage Converted to Cold Damage|7-10:chance to Freeze|40:reduced Radius of Curses|Curses on Slain enemies are transferred to a nearby enemy
+Soul Strike|20-30:increased Global Critical Strike Chance|30:to Dexterity|Adds 18–26 Chaos Damage|11:increased Attack Speed|104:to maximum Energy Shield|40:reduced Energy Shield Recharge Rate|150:increased Energy Shield Cooldown Recovery
 
 ; -------- Body Armours ---------
 
@@ -91,6 +95,8 @@ Thousand Ribbons|10-20:Evasion Rating|@21-31:Energy Shield|Gems in this item are
 Vis Mortis|20-30:to maximum Mana|100-120:increased Energy Shield|20:Minions have reduced Maximum Life|15:Minions deal increased Damage|1:to Maximum number of Spectres|Minions gain Unholy Might for 5 seconds on Kill
 Voll's Protector|60:increased Armour and Energy Shield|50:reduced maximum Mana|Gain a Power Charge for each Enemy you hit with a Critical Strike
 Zahndethus' Cassock|@138-158:Energy Shield|1-40:Adds Lightning Damage|75-100:increased Energy Shield|40-50:to Chaos Resistance|25:increased Light Radius|50:chance on Block to create Consecrated Ground
+Queen of the Forest|1455-2054:Evasion Rating|240-380:increased Evasion Rating|60-70:to maximum Life|6-10:to Fire Resistance|26-40:to Cold Resistance|11-25:to Lightning Resistance|25:reduced Movement Speed|1:increased Movement Speed per 450 Evasion Rating|50-40:Physical Damage taken when hit by Animals
+Incandescent Heart|761-878:Armour|216-235:Energy Shield|60-80:to Armour|120-140:increased Armour and Energy Shield|80-90:to maximum Life|4-5:of Physical Attack Damage Leeched as Life|25:of Elemental Damage taken as Chaos Damage|20-30:increased Light Radius|Light Radius is based on Energy Shield instead of Life
 
 ; -------- Boots ---------
 
@@ -101,7 +107,7 @@ Darkray Vectors|20-40:to Lightning Resistance|5:increased Movement Speed per Fre
 Deerstalker|@166-192:Evasion Rating|Gems in this item are Supported by level 11 Trap|160-200:increased Evasion Rating|35-45:to maximum Life|14-18:increased Trap Throwing Speed|30:increased Movement Speed for 9 seconds on Throwing a Trap
 Demigod's Stride|8-16:to all Elemental Resistances|20-30:increased Rarity of Items found|20:increased Movement Speed|Has Golden Path
 Dusktoe|15-18:Armour|@15-18:Evasion Rating|40-60:increased Armour and Evasion|10-20:to maximum Life|10-20:to maximum Mana|15:increased Movement Speed|50:increased Block and Stun Recovery|20:reduced Light Radius|Your Flasks grant +50% to Chaos Resistance during flask effect
-Goldwyrm|60:increased Mana Regeneration Rate|40-50:to Fire Resistance|20-30:increased Quantity of Items Found|10:increased Movement Speed
+Goldwyrm|60:increased Mana Regeneration Rate|14-20:increased Quantity of Items Found|40-50:to Fire Resistance|10:increased Movement Speed
 Lioneye's Paws|40-60:to Strength|40-60:to Dexterity|12-24:Adds Fire Damage|20:Increased Movement Speed|40:Reduced Movement Speed when on Low Life|20:Increased Block and Stun Recovery|Cannot be stunned when on Low Life
 Ondar's Flight|@72-90:Evasion Rating|15:to Dexterity|15:to Intelligence|100-150:increased Evasion Rating|30:increased Movement Speed when on Low Life|5-10:of Damage taken Gained as Mana when Hit
 Rainbowstride|@110-132:Energy Shield|20-25:of Block Chance applied to Spells|40-60:to maximum Mana|140-180:increased Energy Shield|20:to all Elemental Resistances|20:increased Movement Speed
@@ -113,6 +119,7 @@ Wake of Destruction|54-72:Armour|@16-21:Energy Shield|1-120:Adds Lightning Damag
 Wanderlust|@14-24:Evasion Rating|5:Dexterity|20-40:increased Mana Regeneration Rate|10-20:to maximum Energy Shield|20:increased Movement Speed|Cannot be Frozen
 Windscream|@143-171:Armour|50-80:increased Armour|10-15:to all Elemental Resistances|10:increased Movement Speed|10:increased Elemental Damage|Enemies can have 1 additional Curse
 Wondertrap|@19-25:Evasion Rating|5-10:to Strength|5-10:to Dexterity|5-10:to Intelligence|10-16:to maximum Energy Shield|100:Increased Rarity of Items Found when on Low Life|10:Increased Movement Speed
+Kaom's Roots|210:Armour|Has no Sockets|Cannot be Knocked Back|120-150:to Maximum Life|Unwavering Stance
 
 ; -------- Gloves ---------
 
@@ -120,7 +127,8 @@ Asenath's Gentle Touch|20-30:to Intelligence|20-30:to Maximum Life|20-30:to Maxi
 Atziri's Acuity|@603-643:Armour|60-80:to Intelligence|60-75:to maximum Life|200-220:increased Armour|25-35:increased Global Critical Strike Chance|Leech applies instantly on Critical Strike
 Aurseize|80-91:Armour|@80-91:Evasion Rating|40-60:increased Armour and Evasion|40-50:increased Rarity of Items found|15:to all Elemental Resistances|5:reduced Movement Speed
 Demigod's Touch|20-30:to maximum Life|10-16:increased Attack Speed|6-10:increased Cast Speed
-Deshret's Vise|@141-162:Armour|10:increased Physical Damage|100:to Strength|5-15:reduced Attack Speed|40-60:increased Armour
+Meginord's Vise|@141-162:Armour|10:increased Physical Damage|100:to Strength|40-60:increased Armour
+Deshret's Vise|@141-162:Armour|10:increased Physical Damage|100:to Strength|40-60:increased Armour|5-15:reduced Attack Speed
 Doedre's Tenure|40-50:increased Spell Damage|10:to Intelligence|16:to maximum Energy Shield|20:reduced Cast Speed
 Facebreaker|60:increased Global Critical Strike Multiplier|10:reduced Enemy Stun Threshold|600-800:more Unarmed Physical Damage|Extra Gore
 Voidbringer|@175-207:Energy Shield|125-150:increased Critical Strike Chance for Spells|280-350:increased Energy Shield|80:increased Mana Cost of Skills|15-20:Energy Shield gained when you Kill an enemy|1:to Level of Elemental Gems in this item
@@ -128,7 +136,7 @@ Hrimsorrow|20-30:to Strength|50:increased Evasion Rating|10-20:to Cold Resistanc
 Lochtonial Caress|@16-26:Armour|10-15:increased Attack Speed|10-20:to Armour|10-15:reduced maximum Mana|10-15:increased Cast Speed|Conduit
 Maligaro's Virtuosity|@99-112:Evasion Rating|20-30:to Dexterity|5:increased Attack Speed|50:increased Global Critical Strike Chance|28-36:increased Global Critical Strike Multiplier|60-80:increased Evasion Rating
 Ondar's Clasp|30:increased Attack Speed when on Full Life|1-13:Adds Lightning Damage|50-80:to Accuracy Rating|20:increased Movement Speed when on Low Life
-Sadima's Touch|4-8:Adds Fire Damage|1-13:Adds Lightning Damage|18:to maximum Energy Shield|18-24:increased Quantity of Items found
+Sadima's Touch|4-8:Adds Fire Damage|1-13:Adds Lightning Damage|18:to maximum Energy Shield|12-16:increased Quantity of Items found
 Shackles of the Wretched|40-60:increased Block and Stun Recovery|Curses in this item are reflected back to you|You cannot be Chilled for 3 seconds after being Chilled|You cannot be Frozen for 3 seconds after being Frozen|You cannot be Ignited for 3 seconds after being Ignited|You cannot be Shocked for 1 second after being Shocked|You grant 4-6 Frenzy Charges to allies on Death
 Slitherpinch|@69-86:Evasion Rating|40-50:to Dexterity|5:increased Attack Speed|3:of Physical Attack Damage Leeched back as Life|2:of Physical Attack Damage Leeched back as Mana|60-100:increased Evasion Rating
 Snakebite|@227-255:Evasion Rating|150-180:increased Evasion Rating|60-70:to maximum Life|2:increased Attack Speed per Frenzy Charge|6:increased Accuracy Rating per Frenzy Charge|10:reduced Frenzy Charge Duration per Frenzy Charge|When at Maximum Frenzy Charges, Attacks Poison enemies
@@ -165,6 +173,7 @@ The Vertex|621-684:Evasion Rating|@265-330:Energy Shield|30-40:to maximum Energy
 Skullhead|136-153:Armour|@136-153:Evasion Rating|60-80:increased Armour and Evasion|50-70:to maximum Life|50-70:to maximum Mana|10:Minions have Chance to Block|300-350:to Minion Armour|Minions Regenerate 2% Life per Second
 Starkonja's Head|50:reduced Damage when on Low Life|30-50:to Dexterity|10:increased Attack Speed|25:increased Global Critical Strike Chance|80-100:to maximum Life|50:increased Global Evasion Rating when on Low Life
 Veil of the Night|20-22:increased Block and Stun Recovery|40:reduced Light Radius|1-180,1-220:Reflected Lightning Damage to Attackers on Block|18-22:increased Global Defences|Elemental Resistances are Zero
+The Three Dragons|83:Evasion Rating|25:Energy Shield|26-30:to all Elemental Resistances|Your Fire Damage can Shock but not Ignite|Your Cold Damage can Ignite but not Freeze or Chill|Your Lightning Damage can Freeze but not Shock
 
 ; -------- Shields ---------
 
@@ -183,6 +192,7 @@ Saffell's Frame|8:to all Elemental Resistances|70-80:of Block Chance applied to 
 Springleaf|32-40:Armour|@11-13:Energy Shield|8:to all Elemental Resistances|80-120:increased Armour and Energy Shield|50:reduced Freeze Duration on You|6:of Life Regenerated per Second while on Low Life
 Titucius' Span|@478-538:Armour|60-80:increased Armour|30-50:to maximum Life|10:Physical Damage taken from Ranged Attacks|200:increased Armour against Projectiles|25:additional Block Chance against Projectiles
 Wheel of the Stormsail|@16-21:Armour|60:increased Block Recovery|5-10:to Armour|30-40:increased Rarity of Items found|25:increased Curse Duration|100:increased Duration of Curses on you|5:additional Block Chance
+Jaws of Agony|26:Chance to Block|210:Evasion Rating|62:Energy Shield|Reflects 221-260 Physical Damage to Melee Attackers|18-28:increased Trap Damage|15-25:increased Physical Damage|60-80:to maximum Life|14-18:Physical Damage taken from Attacks|15:chance to gain a Power Charge on Throwing a Trap|Grants level 20 Bear Trap Skill
 
 ; -------- 1H Axe ---------
 
@@ -211,6 +221,8 @@ Quill Rain|10-20:to Dexterity|100:increased Attack Speed|25-50:to Accuracy Ratin
 Silverbranch|@5-13,5-18:Physical Damage|1:to Level of Bow Gems in this item|50-80:increased Physical Damage|10:increased Attack Speed|30:to Accuracy Rating|10:Mana Gained on Kill
 Storm Cloud|1-75:Lightning Damage|@1.63-1.8:Attacks per Second|No Physical Damage|1-75:Adds Lightning Damage|36-50:increased Attack Speed
 Voltaxic Rift|24-71:Physical Damage|1-275,1-325:Lightning Damage|@1.49-1.55 Attacks per Second|1-275,1-325:Adds Lightning Damage|10-15:increased Attack Speed|100:of Lightning Damage Converted to Chaos Damage|10:Chance to Shock|Your Chaos Damage can Shock
+Windripper|17–68:Physical Damage|32–48,40–60:Cold Damage|1–80,1–100:Lightning Damage|9-10:Critical Strike Chance|1.65-1.72:Attacks per Second|32–48,40–60:Adds Cold Damage|1–80,1–100:Adds Lightning Damage|10-15:increased Attack Speed|80-100:increased Critical Strike Chance|25:increased Quantity of Items Dropped by Slain Frozen enemies|50:increased Rarity of Items Dropped by Slain Shocked enemies
+Doomfletch|9–38:Physical Damage|6.5-7:Critical Strike Chance|1.54-1.59:Attacks per Second|10-14:increased Attack Speed|30-40:increased Critical Strike Chance|60:increased Mana Regeneration Rate|Gain 110 of Bow Physical Damage as Extra Damage of an Element
 
 ; -------- Claws ---------
 
@@ -236,6 +248,7 @@ Doon Cuebiyari|@31-58:Physical Damage|10:increased Elemental Damage|50-70:to Str
 Mon'tregul's Grasp|@44-66:Physical Damage|15:increased Elemental Damage|50:reduced number of Zombies allowed|500:to Zombie maximum Life|25-30:increased Zombie Resistances|25:increased Zombie Size|Zombies deal 80-100% increased Physical Damage|Enemies killed by Zombies explode dealing Fire Damage
 Nycta's Lantern|@30-45:Physical Damage|20:increased Elemental Damage|Gems in this item are Supported by level 10 Added Fire Damage|Gems in this item are Supported by level 10 Cold to Fire|Gems in this item are Supported by level 10 Fire Penetration|20-30:increased Spell Damage|6-10:Life gained for each enemy hit by your Attacks|25:increased Light Radius
 The Supreme Truth|@54-81,60-90:Physical Damage|1.32-1.44:Attacks per Second|20:increased Elemental Damage|1:to Level of Gems in this item|80-100:increased Physical Damage|10-20:increased Attack Speed|5:increased Experience gain|20:increased Elemental Damage|60:increased Intelligence Requirement
+Mjölner|81–151,99–185:Physical Damage|5:Critical Strike Chance|1.05:Attacks per Second|40:increased Stun Duration on enemies|80-120:increased Physical Damage|Skills Chain +1 times|30-40:increased Lightning Damage with Weapons|200:Strength Requirement|300:Intelligence Requirement|50:chance to Cast Socketed Lightning Spells on Hit
 
 ; -------- 2H Mace ---------
 
@@ -256,6 +269,7 @@ The Goddess Scorned|56-88,64-100:Physical Damage|@9.5-10.5:Critical Strike Chanc
 Prismatic Eclipse|@43-97,53-106:Physical Damage|18:Increased Accuracy Rating|10:additional Chance to Block while Dual Wielding|20-31,30-40:Adds Physical Damage|25:increased Physical Damage with Weapons per Red Socket|12:increased Global Attack Speed per Green Socket|2:of Physical Attack Damage Leeched as Mana per Blue Socket|2:to Melee Weapon Range per White Socket
 Rebuke of the Vaal|54-95,63-104:Physical Damage|19-31,28-40:Fire Damage|19-31,28-40:Cold Damage|1-50,1-70:Lightning Damage|19-31,28-40:Chaos Damage|@1.43-1.56:Attacks per Second|18:Increased Accuracy Rating|19-31,28-40:Adds Physical Damage|19-31,28-40:Adds Fire Damage|19-31,28-40:Adds Cold Damage|1-50,1-70:Adds Lightning Damage|19-31,28-40:Adds Chaos Damage|10-20:increased Attack Speed
 Redbeak|@9-21:Physical Damage|18:Increased Accuracy Rating|100:Increased Damage when on Low Life|50:Increased Physical Damage|2-6:Adds Physical Damage|10:Increased Attack Speed|2:Life Gained for each Enemy hit by Your Attacks|20-30:to Maximum Life
+Hyaon's Fury|38–71:Physical Damage|1–500,1–600:Lightning Damage|5:Critical Strike Chance|1.28-1.32:Attacks per Second|20:increased Accuracy Rating|Adds 1–500,1–600 Lightning Damage|7-10:increased Attack Speed|6:increased Damage taken per Frenzy Charge|12:increased Lightning Damage per Frenzy Charge|20:Life gained on Kill per Frenzy Charge
 
 ; -------- 2H Sword ---------
 
@@ -279,6 +293,7 @@ Lifesprig|4-7:Physical Damage|@8-12:increased Spell Damage|1:to Level of Spell G
 Midnight Bargain|14-25:Physical Damage|@12-16:increased Spell Damage|10-20:to Intelligence|10-20:Minions have increased Movement Speed|10-30:Minions deal increased Damage|1:to Maximum number of Zombies|1:to Maximum number of Spectres|2:to Maximum number of Skeletons|30:Reserved % of Life|Cannot be used with Chaos Inoculation
 Moonsorrow|43-79:Physical Damage|@15-19:increased Spell Damage|30-40:increased Spell Damage|125:increased Physical Damage|10:to Intelligence|20-30:increased Lightning Damage|10:increased Cast Speed|10:chance to Blind enemies on hit|Skill gems in this item are supported by level 5 Blind
 Void Battery|28-52:Physical Damage|@16-20:increased Spell Damage|80:reduced Spell Damage|50-65:increased Global Critical Strike Chance|40-50:to maximum Mana|1:maximum Power Charge|10-20:increased Cast Speed|25:increased Spell Damage per Power Charge
+Piscator's Vigil|10.3-10.87:Critical Strike Chance|1.43-1.53:Attacks per Second|16-19:increased Spell Damage|No Physical Damage|10-18:increased Attack Speed|340-400:to Accuracy Rating|20-30:increased Critical Strike Chance|Attacks with this Weapon have 100-115 increased Elemental Damage
 
 ; -------- Fishing Rods (yeah, I know... you happy, MonstaMunch??)  ---------
 
@@ -291,6 +306,7 @@ Blood of the Karui|@3.7-4.3:Time|20-30:reduced Recovery Speed|No Life Recover Ap
 Divination Distillate|40-60:increased Rarity of Items found during flask effect|20-25:increased Quantity of Items found during flask effect|25:increased Light Radius during flask effect|6:to all maximum Elemental Resistances during flask effect
 Doedre's Elixir|@30-40:Usage|Removes 20% of your maximum Energy Shield on use|You take 10% of your maximum Life as Chaos Damage on use|You gain a Power Charge on use|You gain a Frenzy Charge on use|You gain an Endurance Charge on use|50-100:increased Charges used
 Lavianga's Spirit|@1365-1575:Mana|30-50:increased Amount Recovered|100:increased Recovery Speed|Your Skills have no Mana Cost during flask effect
+Forbidden Taste|50:increased Charges used|Recover 50 of your maximum life on use|15:of maximum Life taken as Chaos Damage per Second
 
 ; -------- Maps ---------
 
@@ -300,3 +316,5 @@ Maelström of Chaos|@40-60:Item Quantity|Area has patches of chilled ground|Monst
 Olmec's Sanctum|40-50:increased Monster Life|30-40:increased Monster Damage|Final Boss drops higher Level Items
 Poorjoy's Asylum|140-160:increased Monster Life|140-160:increased Monster Damage|25:increased Monster Movement Speed|25:increased Monster Attack Speed|25:increased Monster Cast Speed|250:increased Rarity of Items found in this Map|Area is a Large Maze|150:increased Experience gain|Unique Boss drops 10-15 additional Rare [Item Class]
 Vaults of Atziri|1800-2000:increased Item Rarity for Chests|Area contains no monsters
+Mao Kun|30:Item Quantity|Monsters deal 175-190 extra Damage as Lightning|Monsters gain 3 Endurance Charges every 20 seconds|Monsters gain 3 
+Death and Taxes|150:Item Quantity|Unique Boss deals 59 Damage and attacks 30 faster|Unique Boss gives 10000 increased ExperiencePower Charges every 20 seconds
