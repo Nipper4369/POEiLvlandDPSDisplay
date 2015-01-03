@@ -33,8 +33,21 @@ http://www.pathofexile.com/forum/view-thread/790438
 Requirements
 ------------
 
-AutoHotkey v1.0.45 or newer. You can get AutoHotkey from http://ahkscript.org/download.  
+AutoHotkey v1.0.45 or newer. You can get AutoHotkey from http://ahkscript.org.  
 You can use either the ANSI or the Unicode version if you need to choose.
+
+WARNING: do not get AutHotkey from http://www.authotkey.com even if it comes up first 
+in Google. The .com domain was apparently taken over by a for-profit company, so make
+sure you download from http://ahkscript.org.
+
+Contributors
+------------
+
+_D_S_
+restoutlife
+
+NB: I apologize if I have forgotten to add your name to this list. Please let me (hazydoc) know 
+via the PoE forums to correct this oversight.
 
 Known Issues
 ------------
