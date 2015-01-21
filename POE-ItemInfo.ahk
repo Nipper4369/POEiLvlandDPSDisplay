@@ -139,8 +139,8 @@ ShowAffixBracket = 1            ; Show range for the affix' bracket as is on the
 ShowAffixMaxPossible = 1        ; Show max possible bracket for an affix based on the item's item level
 ShowAffixBracketTier = 1        ; Show a T# indicator of the tier the affix bracket is in. 
                                 ; T1 being the highest possible, T2 second-to-highest and so on
-ShowAffixBracketTierTotal = 1	; Appends the total number of tiers for a given affix in parenthesis T#(Total)
-								; T4(8) would represent the fourth highest tier, in eight total tiers.
+ShowAffixBracketTierTotal = 1   ; Appends the total number of tiers for a given affix in parenthesis T#(Total)
+                                ; T4(8) would represent the fourth highest tier, in eight total tiers.
 
 TierRelativeToItemLevel = 1     ; When determining the affix bracket tier, take item level into consideration.
                                 ; However, this also means that the lower the item level the less the diversity
@@ -834,7 +834,7 @@ LookupAffixData(Filename, ItemLevel, Value, ByRef BracketLevel="", ByRef Tier=0)
     Global MaxSpanStartingFromFirst
     Global CompactDoubleRanges
     Global TierRelativeToItemLevel
-	Global ShowAffixBracketTierTotal
+    Global ShowAffixBracketTierTotal
     MaxLevel := 0
     AffixLevel := 0
     AffixDataIndex := 0
@@ -965,10 +965,10 @@ LookupAffixData(Filename, ItemLevel, Value, ByRef BracketLevel="", ByRef Tier=0)
                 AffixLevel = %MaxLevel%
                 Tier := ((MaxTier - AffixDataIndex) + 1)
 				
-				If (ShowAffixBracketTierTotal)
-				{
-					Tier := Tier . "(" . MaxTier . ")"
-				}
+                If (ShowAffixBracketTierTotal)
+                {
+                    Tier := Tier . "(" . MaxTier . ")"
+                }
 				
             }
             ; record max possible range regardless of within bounds
@@ -1002,10 +1002,10 @@ LookupAffixData(Filename, ItemLevel, Value, ByRef BracketLevel="", ByRef Tier=0)
                 AffixLevel = %MaxLevel%
                 Tier := ((MaxTier - AffixDataIndex) + 1)
 				
-				If (ShowAffixBracketTierTotal)
-				{
-					Tier := Tier . "(" . MaxTier . ")"
-				}
+                If (ShowAffixBracketTierTotal)
+                {
+                    Tier := Tier . "(" . MaxTier . ")"
+                }
             }
             ; record max possible range regardless of within bounds
             If (MaxSpanStartingFromFirst)
@@ -1357,25 +1357,25 @@ AssembleAffixDetails()
         {
             If (InStr(ValueRange, "*") AND ShowAffixBracketTier)
             {
-				If (ShowAffixBracketTierTotal)
-				{
-					TierString := "      "
-				}
-				Else
-				{
-					TierString := "   "
-				}
+                If (ShowAffixBracketTierTotal)
+                {
+                    TierString := "      "
+                }
+                Else
+                {
+                    TierString := "   "
+                }
             }
             Else 
             {
-				If (ShowAffixBracketTierTotal)
-				{
-					TierString := StrPad("T" . AffixTier, 6, "left")
-				}
-				Else
-				{
-					TierString := StrPad("T" . AffixTier, 3, "left")
-				}
+                If (ShowAffixBracketTierTotal)
+                {
+                    TierString := StrPad("T" . AffixTier, 6, "left")
+                }
+                Else
+                {
+                    TierString := StrPad("T" . AffixTier, 3, "left")
+                }
                 
             }
             ProcessedLine := ProcessedLine . TierString . Delim
@@ -5226,12 +5226,12 @@ UpdateSettingsUI()
     If (ShowAffixBracketTier = False) 
     {
         GuiControl, Disable, TierRelativeToItemLevel
-		GuiControl, Disable, ShowAffixBracketTierTotal
+        GuiControl, Disable, ShowAffixBracketTierTotal
     }
     Else
     {
         GuiControl, Enable, TierRelativeToItemLevel
-		GuiControl, Enable, ShowAffixBracketTierTotal
+        GuiControl, Enable, ShowAffixBracketTierTotal
     }
     GuiControl,, TierRelativeToItemLevel, %TierRelativeToItemLevel%
     GuiControl,, CompactDoubleRanges, %CompactDoubleRanges%
@@ -5296,7 +5296,7 @@ ReadConfig(ConfigPath="config.ini")
         IniRead, ShowAffixMaxPossible, %ConfigPath%, DisplayAffixes, ShowAffixMaxPossible, %ShowAffixMaxPossible%
         IniRead, MaxSpanStartingFromFirst, %ConfigPath%, DisplayAffixes, MaxSpanStartingFromFirst, %MaxSpanStartingFromFirst%
         IniRead, ShowAffixBracketTier, %ConfigPath%, DisplayAffixes, ShowAffixBracketTier, %ShowAffixBracketTier%
-		IniRead, ShowAffixBracketTierTotal, %ConfigPath%, DisplayAffixes, ShowAffixBracketTierTotal, %ShowAffixBracketTierTotal%
+        IniRead, ShowAffixBracketTierTotal, %ConfigPath%, DisplayAffixes, ShowAffixBracketTierTotal, %ShowAffixBracketTierTotal%
         IniRead, TierRelativeToItemLevel, %ConfigPath%, DisplayAffixes, TierRelativeToItemLevel, %TierRelativeToItemLevel%
         ; Display - Results
         IniRead, CompactDoubleRanges, %ConfigPath%, DisplayResults, CompactDoubleRanges, %CompactDoubleRanges%
@@ -5352,7 +5352,7 @@ WriteConfig(ConfigPath="config.ini")
     IniWrite, %ShowAffixMaxPossible%, %ConfigPath%, DisplayAffixes, ShowAffixMaxPossible
     IniWrite, %MaxSpanStartingFromFirst%, %ConfigPath%, DisplayAffixes, MaxSpanStartingFromFirst
     IniWrite, %ShowAffixBracketTier%, %ConfigPath%, DisplayAffixes, ShowAffixBracketTier
-	IniWrite, %ShowAffixBracketTierTotal%, %ConfigPath%, DisplayAffixes, ShowAffixBracketTierTotal
+    IniWrite, %ShowAffixBracketTierTotal%, %ConfigPath%, DisplayAffixes, ShowAffixBracketTierTotal
     IniWrite, %TierRelativeToItemLevel%, %ConfigPath%, DisplayAffixes, TierRelativeToItemLevel
     
     ; Display - Results
@@ -5575,12 +5575,12 @@ SettingsUI_ChkShowAffixBracketTier:
     If (Not IsChecked) 
     {
         GuiControl, Disable, TierRelativeToItemLevel
-		GuiControl, Disable, ShowAffixBracketTierTotal
+        GuiControl, Disable, ShowAffixBracketTierTotal
     }
     Else
     {
         GuiControl, Enable, TierRelativeToItemLevel
-		GuiControl, Enable, ShowAffixBracketTierTotal
+        GuiControl, Enable, ShowAffixBracketTierTotal
     }
     return
     
